@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Anek_Latin";
+}
+
+@font-face{
+    font-family: "Anek_Latin";
+    src: url(Anek_Latin/AnekLatin-VariableFont_wdth\,wght.ttf);
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.left, .right{
+    float: right;
+    height: 96%;
+}
+
+.left{
+    background: 
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    width: 54%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    background-color: white;
+    width: 46%;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.right img{
+    width: 45px;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.legt img{
+    width: 400px;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    margin-top: 70px;
+}
+
+h2{
+    color: black;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+button{
+    display: block;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.apple {
+    font-weight: bold;
+}
+.right img{
+    width: 0px;
+    margin: 0 5px;
+}
+
+.google img{
+    width: 20px;
+    margin: 0 5px;
+}
+
+.apple img{
+    width: 20px;
+    margin: 0 5px;
+}
+
+.or{
+    color: black;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+hr{
+    display:inline-block;
+    width: 135px;
+    opacity: 0.3;
+    align-items: center;
+}
+
+.createaccount{
+    background-color: #269cec;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color:gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+p a{
+    text-decoration: none;
+    color: #269cec;
+}
+
+h3{
+    color: black;
+    margin-top: 70px;
+    font-size: 500;
+    font-weight: bold;
+}
+
+.signin{
+    color: #269cec;
+    background-color: white;
+    border: 1px solid #269cec;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.signin:hover{
+    background-color: #e8f5fd;
+    transition: ease;
+    animation-duration: 0.4s;
+}
+
+.apple:hover{
+    background-color: #e6e6e6;
+    transition: ease;
+    animation-duration: 0.4s;
+}
+
+.createaccount:hover{
+    background-color: #1a8cd8;
+    transition: ease;
+    animation-duration: 0.4s;
+}
+
+footer {
+    background-color: white ;
+    position: absolute;
+    bottom: 0;
+    height: 4%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 17px;
+}
+
+footer p{
+    display: inline-block;
+    font-size: 15px;
+}
+
+@media (max-width: 1017px) {
+    .left, .right{
+        float:none;
+        width: 100%;
+    }
+    .right {
+        padding-left: 15%;
+    }
+    .right .X{
+        margin-top: 40px;
+        width: 50px;
+    }
+    .left{
+        height: 40%;
+    }
+    .left img{
+        width: 340px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    footer{
+        position: relative;
+        height: 80px;
+    }
+}

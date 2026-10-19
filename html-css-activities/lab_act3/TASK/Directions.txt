@@ -1,0 +1,3 @@
+Create a Webpage like in the example. TIKTOK
+Please Screenshot the Code of HTML ,CSS and OUTPUT.
+Note: Extract the Files.
